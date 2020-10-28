@@ -1,0 +1,166 @@
+*{
+   background-color: black;
+   color: white;
+   
+}
+.titulo{
+    display: flex;
+}
+.titulo h1{
+    text-align: center;  
+    padding: 10px;
+    padding-bottom: 0px;
+    font-weight: 800;
+    color: transparent;
+    font-size: 120px;
+    background: url("ft.gif");
+    background-position: center center;
+    background-size: 200%;
+    -webkit-background-clip: text;
+    position: relative;
+    line-height: 90px;
+    letter-spacing: -8px;
+    margin: auto;
+    width: 1000px;
+}
+.concepto{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.concepto h4{
+    width: 1000px;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.cp{
+    display: flex;
+    width: 1068px;
+    height: 200px;
+}
+.cp p{
+   background-color: rgba(139, 0, 139, 0.415);
+   border:white;
+   width: 300px;
+   height: 100px;
+   margin: auto;
+   padding: 20px;
+   text-align: center;
+   border: white 3px;
+   border-style: outset;
+   font-family: serif;
+}
+.vi{
+    display: flex;
+}
+.vi iframe{
+    text-align: center;
+    padding: 50px;
+    margin:auto;
+}
+.imuniverso{
+    color: red;
+}
+.titulo4{
+    color: seagreen;
+}
+.componentes h1{
+width: 800px;
+text-align: center;
+border: rgb(68, 6, 67) 3px;
+border-style: solid;
+padding: 10px;
+margin: 80px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: rgb(68, 6, 67);
+}
+.componentes ul{
+    list-style-type: circle;
+}
+.componentes li{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #aba5bf6a;
+    font-style: oblique;
+}
+.componentes2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.componentes2 h1{
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: 30px;
+}
+.componentes2 p{
+    width: 700px;
+    height: 200;
+    padding: 25px;
+    background-color: rgba(139, 0, 139,0.2);
+    border:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+.galaxias{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+.planetas{
+    display: flex;
+    flex-wrap: wrap;
+}
+.planetas h3{
+    width: 1000px;
+    text-align: center;
+    border: white 3px;
+    border-style: solid;
+    padding: 10px;
+    margin: 80px;
+}
+.planetas table{
+    align-content: center;
+    border-collapse: separate;
+    border-spacing: 5px;
+    background: #000 url("ft.gif") bottom left repeat-x;
+    color: #fff;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    
+}
+.planetas td, th {
+    background:black ;
+    color: white;
+ }
+footer{
+    background: hsla(323, 85%, 18%, 0.265);
+    padding: 15px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    background: hsla(323, 85%, 18%, 0.265);
+}
+.titulo-final{
+    text-align: center;
+    font-size: 12px;
+    margin: 10px 0 0 0;
+    color: #9e9797;
+    background:hsla(323, 85%, 18%, 0.265);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
