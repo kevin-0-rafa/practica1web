@@ -1,1 +1,5 @@
-www.practica1.com
+$ dig practica1.com +noall +answer
+> practica1.com    3600    IN A     ns-cloud-e1.googledomains.com.
+> practica1.com    3600    IN A     ns-cloud-e2.googledomains.com.
+> practica1.com    3600    IN A     ns-cloud-e3.googledomains.com.
+> practica1.com    3600    IN A     ns-cloud-e4.googledomains.com.
